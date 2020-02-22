@@ -11,7 +11,7 @@ document.getElementById("stockSubmit").addEventListener("click", function(event)
         return response.json();
       }).then(function(json) {
         let results = "";
-        results += '<div class="current"><h2>Company Name: ' + json.quote.companyName + '</h2>';
+        results += '<div class="current"><h2>' + json.quote.companyName + '</h2>';
         results += '<p>Open Price: $' + json.quote.open + "</p>";
         results += '<p>Close Price: $' + json.quote.close + "</p>";
         results += '<p>High: $' + json.quote.high + "</p>";

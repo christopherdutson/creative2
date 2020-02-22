@@ -2,7 +2,7 @@ body {
     margin: auto;
     padding-bottom: 45px;
     background-color: #d7d9de;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 h1 {
     text-align: center;
@@ -11,6 +11,12 @@ h1 {
     padding: 40px;
     font-size: 60px;
     background-color: #759aab;
+}
+h2 {
+    font-size: 35px;
+}
+p {
+    font-size: 20px;
 }
 form {
     display: flex;

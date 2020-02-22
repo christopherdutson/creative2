@@ -10,7 +10,7 @@ h1 {
     color: rgb(17, 15, 15);
     padding: 40px;
     font-size: 60px;
-    background-color: #20bc62;
+    background-color: #759aab;
 }
 form {
     display: flex;
@@ -22,20 +22,16 @@ label {
     margin-right: 15px;
     margin-left: 20px;
 }
-#weatherSubmit {
+#stockSubmit {
     align-content: center;
     margin-left: 15px;
     padding: 5px;
 }
-.time {
-    margin: 20px;
-    padding: 15px;
-    background-color: #7ab3be;
-}
 .current {
     margin: 20px;
     padding: 15px;
-    background-color: #0c7489;
+    background-color: #7ab3be;
+    text-align: center;
 }
 
 a {
@@ -52,7 +48,7 @@ footer {
     bottom: 0;
     width: 100%;
     padding: 15px 30px;
-    background-color: #20bc62;
+    background-color: #759aab;
 }
 
 @media (max-width: 495px) {
@@ -63,11 +59,11 @@ footer {
     label {
         margin: 20px;
     }
-    #weatherSubmit {
+    #stockSubmit {
         margin-left: 20px;
         padding: 5px;
     }
-    #weatherInput {
+    #stockInput {
         margin: 10px 20px;
     }
 }
